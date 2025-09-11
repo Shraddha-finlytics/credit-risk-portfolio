@@ -5,10 +5,40 @@ The scorecard approach is widely used in banking because it provides both a prob
 
 The project uses the **Give Me Some Credit** dataset (from Kaggle) and follows a structured, step-by-step roadmap from raw data to a working scorecard model.
 
+
+## Environment Setup
+
+It is recommended to use a virtual environment to keep dependencies clean and avoid conflicts with other Python projects.
+
+### 1. Create a virtual environment
+python -m venv venv
+### 2. Activate the virtual environment
+- On Windows:
+```
+venv\Scripts\activate
+```
+- On Mac/Linux::
+```
+source venv/bin/activate
+``` 
+### 3. Install required packages
+```
+pip install -r requirements.txt
+```
+### 4. Launch Jupyter Notebook
+```
+jupyter notebook
+```
+## Installation
+If you already have a Python environment set up, you can install the dependencies directly:
+```
+pip install -r requirements.txt
+```
+Then open the Jupyter notebook located in the notebooks/ folder to run the project.
+
 ---
 
 ## Project Roadmap
-
 ### Stage 1: Setup & Data Load
 - Loaded the raw dataset (`cs-training.csv`) into Python (pandas).
 - Saved a clean version into an SQLite database for analysis.
@@ -45,12 +75,6 @@ The project uses the **Give Me Some Credit** dataset (from Kaggle) and follows a
 - `.gitignore` → files excluded from version control
 - `README.md` → project summary
 
-## Installation
-To run this project locally, install the required dependencies:
-
-```
-pip install -r requirements.txt
-```
 
 ---
 
@@ -65,5 +89,6 @@ pip install -r requirements.txt
 ## License
 
 This project is for **educational purposes** and not intended for production use in real credit risk modeling.
+
 
 
