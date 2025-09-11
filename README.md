@@ -44,12 +44,8 @@ The project uses the **Give Me Some Credit** dataset (from Kaggle) and follows a
 - `requirements.txt` → Python dependencies
 - `.gitignore` → files excluded from version control
 - `README.md` → project summary
-```
-
----
 
 ## Installation
-
 To run this project locally, install the required dependencies:
 
 ```
@@ -69,4 +65,5 @@ pip install -r requirements.txt
 ## License
 
 This project is for **educational purposes** and not intended for production use in real credit risk modeling.
+
 
