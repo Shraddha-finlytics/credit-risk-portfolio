@@ -63,9 +63,10 @@ pip install -r requirements.txt
 - Built an interpretable **credit risk scorecard**.
 - Demonstrated how customer characteristics (age, income, utilization) affect default probability.
 - Produced a scoring system aligned with banking practices (base score, points to double odds).
-
+![Credit Score Distribution](reports/credit_score_distribution.png)
 ---
 
 ## License
 
 This project is for **educational purposes** and not intended for production use in real credit risk modeling.
+
