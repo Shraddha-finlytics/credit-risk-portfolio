@@ -35,15 +35,15 @@ The project uses the **Give Me Some Credit** dataset (from Kaggle) and follows a
 
 ## Repository Structure
 
-```
-project-1-pd-scorecard/
-│── data/            # raw dataset (excluded via .gitignore if large)
-│── notebooks/       # Jupyter notebooks
-│── sql/             # SQL scripts
-│── reports/         # outputs and analysis results
-│── README.md        # project summary
-│── .gitignore       # files to ignore
-│── requirements.txt # dependencies
+- `data/` → raw dataset (excluded if large, see `.gitignore`)
+- `notebooks/` → Jupyter notebooks with full workflow
+- `sql/` → SQL queries and supporting notes
+  - `eda_queries.sql` → exploratory SQL queries
+  - `schema_and_load_notes.md` → how the SQL table was created in Python
+- `reports/` → charts and outputs
+- `requirements.txt` → Python dependencies
+- `.gitignore` → files excluded from version control
+- `README.md` → project summary
 ```
 
 ---
