@@ -55,11 +55,11 @@ Then open the Jupyter notebook located in the notebooks/ folder to run the proje
 - Created binned variables for **age, income, utilization**.
 - Calculated **Weight of Evidence (WoE)** and **Information Value (IV)**.
 
-### Stage 4: Scorecard Model (Python)
-- Trained a logistic regression model on WoE-transformed variables.
-- Evaluated performance using ROC curve, Precision-Recall curve, and cutoff tuning.
-- Converted logistic regression coefficients into **scorecard points**.
-- Built customer-level credit scores and visualized their distribution.
+### Stage 4: Scorecard Model
+- Trained a logistic regression model using WoE features (age, income, utilization).
+- Converted model coefficients into a scorecard with points assigned to each variable bin.
+- Calculated customer-level credit scores by adding up base points and feature points.
+- Visualized the score distribution to check how well the scorecard separates good and bad customers.
 
 ---
 
@@ -80,15 +80,25 @@ Then open the Jupyter notebook located in the notebooks/ folder to run the proje
 
 ## Results
 
-- Built an interpretable **credit risk scorecard**.
-- Demonstrated how customer characteristics (age, income, utilization) affect default probability.
-- Produced a scoring system aligned with banking practices (base score, points to double odds).
-![Credit Score Distribution](reports/credit_score_distribution.png)
+- Built an interpretable credit risk scorecard.  
+- Demonstrated how customer characteristics (age, income, utilization) affect default probability.  
+- Produced a scoring system aligned with banking practices (base score, points to double odds).  
+- Validated the model: good customers scored higher on average, and applying a cutoff (600) clearly separated approved vs rejected customers, with much lower default rates in the approved group.
+
+### Visualizations
+
+Credit score distribution across all customers:  
+![Credit Score Distribution](reports/credit_score_distribution.png)  
+
+Credit score distribution split between good vs bad customers:  
+![Credit Score Good vs Bad](reports/credit_score_good_vs_bad.png)  
+
 ---
 
 ## License
 
 This project is for **educational purposes** and not intended for production use in real credit risk modeling.
+
 
 
 
