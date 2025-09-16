@@ -85,12 +85,15 @@ Then open the Jupyter notebook located in the notebooks/ folder to run the proje
 - Produced a scoring system aligned with banking practices (base score, points to double odds).  
 - Validated the model: good customers scored higher on average, and applying a cutoff (600) clearly separated approved vs rejected customers, with much lower default rates in the approved group.
 
-### Visualizations
 
-Credit score distribution across all customers:  
+---
+
+## Visualisations
+
+**1) Credit score distribution across all customers:**
 ![Credit Score Distribution](reports/credit_score_distribution.png)  
 
-Credit score distribution split between good vs bad customers:  
+**2) Credit score distribution split between good vs bad customers:** 
 ![Credit Score Good vs Bad](reports/credit_score_good_vs_bad.png)  
 
 ---
@@ -98,6 +101,7 @@ Credit score distribution split between good vs bad customers:
 ## License
 
 This project is for **educational purposes** and not intended for production use in real credit risk modeling.
+
 
 
 
