@@ -91,18 +91,16 @@ Then open the Jupyter notebook located in the notebooks/ folder to run the proje
 ## Visualisations
 
 **1) Credit score distribution across all customers:**
+
 ![Credit Score Distribution](reports/credit_score_distribution.png)  
 
+
 **2) Credit score distribution split between good vs bad customers:** 
+
 ![Credit Score Good vs Bad](reports/credit_score_good_vs_bad.png)  
 
 ---
 
 ## License
 
-This project is for **educational purposes** and not intended for production use in real credit risk modeling.
-
-
-
-
-
+This project is for **educational purposes** and not intended for production use in real credit risk modelling.
